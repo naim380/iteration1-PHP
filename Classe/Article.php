@@ -3,17 +3,17 @@
 class Article
 {
 
-    public  $id,
-            $name,
-            $description,
-            $price,
-            $weight,
-            $available,
-            $image,
-            $quantity;
+    private $id;
+    private $name;
+    private $description;
+    private $price;
+    private $weight;
+    private $available;
+    private $image;
+    private $quantity;
 
 
-public function __consctruct($id,$name,$description,$price,$weight,$available,$image,$quantity)
+public function __construct($id,$name,$description,$price,$weight,$available,$image,$quantity)
 {
         $this->id = $id;
         $this->name = $name;
